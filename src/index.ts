@@ -14,7 +14,7 @@ app.listen(3000, ()=>{
 
 // Environment variables
 /* const country_code = "505";
-const number = "77163892";
+const number = process.env.NUMBER;
 const msg = "Prueba de mensaje con whatsapp-web.js"; */
 
 // Load the session data if it has been previously saved
